@@ -2,7 +2,7 @@ import React from 'react'
 
 export const States = () => {
   return (
-   <div className="w-full bg-gradient-to-r from-blue-600 via-purple-500 to-indigo-600 py-10">
+   <div className="w-full bg-blue-600 py-10">
 
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 text-center text-white">
 

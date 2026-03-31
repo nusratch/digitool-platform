@@ -4,7 +4,7 @@ import "../../App.css";
 
 const Nav = ({ cartCount = 0 }) => {
   return (
- <div className="navbar bg-base-100 w-full px-16">
+ <div className="navbar bg-base-100 w-full px-6">
 
         <div className="navbar-start">
           <a className="text-xl font-bold text-blue-600">DigiTools</a>
