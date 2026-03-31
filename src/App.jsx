@@ -5,6 +5,7 @@ import { Banner } from './components/banner/Banner'
 import Nav from './components/navbar/Nav'
 import { States } from './components/states/States'
 import { Getstarted } from './components/getstarted/Getstarted'
+import { Cart } from './components/cart/Cart'
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import { Pricing } from './components/pricing/Pricing'
@@ -69,15 +70,11 @@ function App() {
         </div>
       </div>
 
-      {
-        showCart ? (
-          <div className="text-center mt-10 text-gray-600">
-            Cart Items: {cart.length}
-          </div>
-        ) : (
-          <Cards cards={cards} addToCart={handleAddToCart} />
-        )
-      }
+      {showCart ? (
+        <Cart cart={cart} setCart={setCart} />
+      ) : (
+        <Cards cards={cards} addToCart={handleAddToCart} />
+      )}
 
       <Getstarted />
       <Pricing/>

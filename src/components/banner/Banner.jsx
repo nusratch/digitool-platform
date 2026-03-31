@@ -1,7 +1,7 @@
 import React from 'react'
+import bannerImg from '../../assets/banner.png'
 
-  export const Banner = () => {
-    const bannerImg = "/banner.png"
+export const Banner = () => {
   return (
 
      
@@ -20,7 +20,7 @@ import React from 'react'
 
           <p className="text-gray-500 mb-6">
             Access premium AI tools, design assets, templates, and productivity 
-            software — all in one place. Start creating faster today.
+            software all in one place. Start creating faster today.
           </p>
 
           <div className="flex gap-4">
