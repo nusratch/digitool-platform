@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content using AI tools",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited writing", "SEO optimization", "Grammar check"],
+    "icon": "package.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Professional ready-made design templates",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["100+ templates", "Easy customization", "Commercial use"],
+    "icon": "play.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "High-quality stock images and graphics",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10k+ assets", "HD quality", "Free updates"],
+    "icon": "rocket.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate your workflow with smart tools",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Task automation", "No coding", "Fast setup"],
+    "icon": "user.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create ATS-friendly resumes easily",
+    "price": 15,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["ATS optimization", "PDF export", "Modern templates"],
+    "icon": "package.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Kit",
+    "description": "Grow your social media with content tools",
+    "price": 39,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Post templates", "Analytics tools", "Scheduling"],
+    "icon": "play.png"
+  }
+]
