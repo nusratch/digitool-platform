@@ -1,8 +1,8 @@
 import React from 'react'
-import "./App.css";
+import "../../App.css";
 
 
-const Nav = () => {
+const Nav = ({ cartCount = 0 }) => {
   return (
  <div className="navbar bg-base-100 w-full px-16">
 

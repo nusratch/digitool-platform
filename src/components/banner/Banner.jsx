@@ -1,7 +1,7 @@
 import React from 'react'
-import bannerImg from ="../../assets/banner.png"
+import bannerImg from "../../assets/banner.png"
 
- const Banner = () => {
+  export const Banner = () => {
   return (
 
      
@@ -46,4 +46,3 @@ import bannerImg from ="../../assets/banner.png"
       </div>
   )
 }
-export default banner;
