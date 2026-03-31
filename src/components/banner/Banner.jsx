@@ -1,7 +1,7 @@
 import React from 'react'
 
   export const Banner = () => {
-    const bannerImg = "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+    const bannerImg = "/banner.png"
   return (
 
      

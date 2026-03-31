@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { Cards } from './components/Cards/Cards'
+import { Cards } from './components/cards/Cards'
 import { Banner } from './components/banner/Banner'
-import Nav from './components/navbar/nav'
+import Nav from './components/navbar/Nav'
 import { States } from './components/states/States'
 import { Getstarted } from './components/getstarted/Getstarted'
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import { Pricing } from './components/pricing/Pricing'
 import { Workflow } from './components/workflow/Workflow'
+import { Footer } from './components/footer/Footer'
 function App() {
   const [cards, setCards] = useState([])
   const [cart, setCart] = useState([])
@@ -80,7 +81,8 @@ function App() {
 
       <Getstarted />
       <Pricing/>
-      <Workflow
+      <Workflow/>
+      <Footer/>
 
       <ToastContainer />
 
