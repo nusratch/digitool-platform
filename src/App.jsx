@@ -23,6 +23,14 @@ function App() {
         </div>
 
         <div className="navbar-end gap-4">
+          <div className="indicator">
+    <span className="indicator-item badge badge-primary">
+      {cartCount}
+    </span>
+    <button className="btn btn-ghost btn-circle text-xl">
+      🛒
+    </button>
+  </div>
           <a className="text-gray-600">Login</a>
           <button className="btn bg-blue-500 text-white rounded-full px-6">
             Get Started
