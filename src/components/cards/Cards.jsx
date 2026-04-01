@@ -1,4 +1,5 @@
 import React from "react";
+import designTool from "../../assets/products/design-tool.png";
 
 export const Cards = ({ cards = [], addToCart }) => {
   return (
@@ -16,7 +17,7 @@ export const Cards = ({ cards = [], addToCart }) => {
 
           <div className="mb-4">
             <img 
-              src={`/src/assets/products/design-tool.png`} 
+              src={designTool}
               alt={product.name}
               className="w-8 sm:w-10"
             />
