@@ -2,23 +2,22 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="mt-24 bg-gradient-to-r from-indigo-500 to-purple-500 text-white">
+   <div className="mt-16 sm:mt-20 lg:mt-24 bg-[#020617] text-white">
 
-      <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-5 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 py-10 sm:py-12 lg:py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 sm:gap-8 items-start">
 
-       
-        <div className="md:col-span-2">
-          <h2 className="text-2xl font-bold mb-4">DigiTools</h2>
-          <p className="text-white/80">
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold mb-4">DigiTools</h2>
+
+          <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
             Premium digital tools for creators, professionals, and businesses.
             Work smarter with our suite of powerful tools.
           </p>
         </div>
 
-  
         <div>
-          <h3 className="font-semibold mb-3">Product</h3>
-          <ul className="space-y-2 text-white/80">
+          <h3 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Product</h3>
+          <ul className="space-y-2 text-xs sm:text-sm text-gray-300">
             <li>Features</li>
             <li>Pricing</li>
             <li>Templates</li>
@@ -26,10 +25,9 @@ export const Footer = () => {
           </ul>
         </div>
 
-     
         <div>
-          <h3 className="font-semibold mb-3">Company</h3>
-          <ul className="space-y-2 text-white/80">
+          <h3 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Company</h3>
+          <ul className="space-y-2 text-xs sm:text-sm text-gray-300">
             <li>About</li>
             <li>Blog</li>
             <li>Careers</li>
@@ -37,10 +35,9 @@ export const Footer = () => {
           </ul>
         </div>
 
-        
         <div>
-          <h3 className="font-semibold mb-3">Resources</h3>
-          <ul className="space-y-2 text-white/80">
+          <h3 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Resources</h3>
+          <ul className="space-y-2 text-xs sm:text-sm text-gray-300">
             <li>Documentation</li>
             <li>Help Center</li>
             <li>Community</li>
@@ -48,39 +45,30 @@ export const Footer = () => {
           </ul>
         </div>
 
-        <div>
-    <h3 className="font-semibold mb-3">Social Links</h3>
+        <div className="sm:col-span-2 md:col-span-1 text-left md:text-right">
+          <h3 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Social Links</h3>
 
-     <div className="flex gap-3 mt-3">
-
- <div className="w-10 h-10 rounded-full bg-white text-indigo-600 flex items-center justify-center">
-              f
-         </div>
-
-            <div className="w-10 h-10 rounded-full bg-white text-indigo-600 flex items-center justify-center">
-              in
-            </div>
-
-            <div className="w-10 h-10 rounded-full bg-white text-indigo-600 flex items-center justify-center">
-              X
-            </div>
-
+          <div className="flex gap-3 sm:gap-4 md:justify-end">
+            <img src="/fb.jpg" className="w-8 sm:w-10 h-8 sm:h-10 bg-white rounded-full p-2" />
+            <img src="/msg.png" className="w-8 sm:w-10 h-8 sm:h-10 bg-white rounded-full p-2" />
+            <img src="/x.jpg" className="w-8 sm:w-10 h-8 sm:h-10 bg-white rounded-full p-2" />
           </div>
         </div>
 
       </div>
 
-    
-      <div className="border-t border-white/30 mt-6 py-6 px-6 max-w-6xl mx-auto flex flex-col md:flex-row justify-between text-white/80 text-sm">
+      <div className="border-t border-gray-500/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 py-4 sm:py-6 flex flex-col md:flex-row justify-between items-center text-xs sm:text-sm text-gray-400">
 
-        <p>© 2026 Digitools. All rights reserved.</p>
+          <p>© 2026 DigiTools. All rights reserved.</p>
 
-        <div className="flex gap-6 mt-4 md:mt-0">
-          <span>Privacy Policy</span>
-          <span>Terms of Service</span>
-          <span>Cookies</span>
+          <div className="flex gap-4 sm:gap-6 mt-3 md:mt-0 flex-wrap justify-center">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Cookies</p>
+          </div>
+
         </div>
-
       </div>
 
     </div>
