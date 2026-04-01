@@ -2,9 +2,9 @@ import React from "react";
 
 export const Workflow = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 pt-12 sm:pt-16 lg:pt-20 pb-0">
+    <div className="w-full max-w-full mx-auto px-0 pt-12 sm:pt-16 lg:pt-20 pb-0">
       
-      <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-center py-10 sm:py-12 lg:py-16 px-4 sm:px-6 text-white">
+      <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-center pt-10 sm:pt-12 lg:pt-16 pb-20 px-4 sm:px-6 text-white">
         
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
           Ready To Transform Your Workflow?
